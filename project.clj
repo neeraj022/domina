@@ -10,6 +10,14 @@
                                    :pretty-print true
                                    :output-dir ".cljsbuild/domina"
                                    :output-to "public/domina.js"}}
+                        {:id "domina"
+                         :source-paths ["src/cljs"]
+                         :figwheel false
+                         :compiler {:main "domina"
+                                    :asset-path "js"
+                                    :output-to "resources/public/js/main.js"
+                                    :output-dir "resources/public/js"} }
+
                        {:source-paths ["test/cljs"]
                         :compiler  {:libs ["goog/dom/query.js"]
                                     :pretty-print true
