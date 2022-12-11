@@ -1,2 +1,4 @@
-{:deps
- {org.clojure/clojure {:mvn/version "1.4.0"}}}
+{:paths ["src/cljs"]
+	:deps
+ {org.clojure/clojure {:mvn/version "1.4.0"}
+  binaryage/oops {:mvn/version "0.7.2"}}}
